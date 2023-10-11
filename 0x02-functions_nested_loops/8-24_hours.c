@@ -1,7 +1,7 @@
 #include "main.h"
 /**
-   * main - Entry point
-    * Description: using printf function
+   * jack_bauer - printing hours and minutes of the day
+    * Description: using _putchar
      * Return: Always 0 (Success)
       */
 
