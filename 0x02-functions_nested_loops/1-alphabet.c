@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* main - Entry point
+*print_alphabet - calling the prototype
 * Description: printing the alphabet using _putchar and functions
 * Return: Always 0 (Success)
 */
