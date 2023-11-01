@@ -7,7 +7,7 @@
     *@argv: pointers to the arguments
     *Return: Always 0 (Success)
     */
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
 	int total, count;
 	unsigned int i;
