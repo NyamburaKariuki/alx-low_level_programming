@@ -1,7 +1,7 @@
 #include "dog.h"
 #include <stdlib.h>
 /**
-    *init_do - function to initialize dog struct
+    *init_dog - function to initialize dog struct
     *@d: pointer to the struct
     *@name: name to initialize with
     *@age: age to initialize with
