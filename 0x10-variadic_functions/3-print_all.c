@@ -16,7 +16,7 @@ void print_all(const char * const format, ...)
 	va_start(any, format);
 		if (format)
 		{
-			while (format && format[i] !='\0')
+			while (format && format[i] != '\0')
 			{
 				switch (format[i])
 				{
@@ -41,7 +41,7 @@ void print_all(const char * const format, ...)
 					i++;
 					continue;
 				}
-				separator = ",";
+				separator = ", ";
 				i++;
 			}
 		}
