@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- *strlen - function to get the length of a string
+ *_strlen - function to get the length of a string
  *@str:string
  *Return: Always 0 (Success)
  */
@@ -22,6 +22,7 @@ unsigned int _strlen(char *str)
 list_t *add_node_end(list_t **head, const char *str)
 {
 	list_t *new, *current;
+
 	if (str == NULL)
 		return (NULL);
 
