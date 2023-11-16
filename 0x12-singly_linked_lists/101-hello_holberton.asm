@@ -1,17 +1,18 @@
 section .data
-hello db "Hello, Holberton", 0
+    hello db "Hello, Holberton", 0
 
 section .text
-global main
+    global main
 
-extern printf
+    extern printf
 
 main:
-sub rsp, 8 
+    sub rsp, 8       ; Align the stack on a 16-byte boundary (for macOS)
+    
+    mov rdi, hello   ; Format string
+    call printf      ; Call printf function
 
-mov rdi, hello
-all printf
+    add rsp, 8       ; Restore the stack pointer
+    xor eax, eax     ; Return 0 from main
+    ret
 
-add rsp, 8
-xor eax, eax
-ret
