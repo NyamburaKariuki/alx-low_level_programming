@@ -2,7 +2,7 @@
 /**
   *print_listint - function to print elements of a list
   *@h:singly linked list
-  *Return: return the number of elements
+  *Return: return the elements
   */
 size_t print_listint(const listint_t *h)
 {
