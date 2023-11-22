@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
-  *rerse_listint - function to reverse a list
+  *reverse_listint - function to reverse a list
   *@head: head node
   *Return: Always 0 (Success)
   */
